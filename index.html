@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.csso">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src='https://use.fontawesome.com/72c1021474.js'></script>
+    <script src="js/scripts.js"></script>
+    <title>Twitch TV Favorites List</title>
+  </head>
+  <body>
+    <div class="container-fluid" id="mainDiv">
+      <div class="row" id="introDiv">
+        <h1 class="col-sm-5">Twitch TV Favorites List</h1>
+        <div class="col-sm-2" id="checkboxDiv">
+          <input type="checkbox" id="liveCheck" checked>Streaming Now<br>
+          <input type="checkbox" id="deadCheck" checked>Offline
+        </div>
+        <form class="col-sm-5" id="addForm">
+          <input type="text" name = "streamField" id="addStreamField" required>
+          <input type="submit" id="addStreamBut" value="Add Streamer">
+        </form>
+      </div><!--introDiv-->
+      <div id="streamDiv">
+      </div><!--streamDiv--->
+    </div><!--mainDiv-->
+  </body>
+</html>

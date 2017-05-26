@@ -1,0 +1,72 @@
+body{
+  background-color: #555555;
+  font-family: 'Oswald', sans-serif;
+}
+h1{
+  color: #F5F5F5;
+  font-weight: bold;
+  text-align: left;
+}
+#mainDiv{
+  text-align: center;
+}
+#introDiv{
+  margin: auto;
+  width: 60%;
+}
+#checkboxDiv{
+  text-align: left;
+  margin-top: 2%;
+}
+#streamDiv{
+  margin: auto;
+  width: 60%;
+  margin-bottom: 3%;
+  margin-top: 1%;
+}
+#addForm{
+  margin-top: 3%;
+}
+.live{
+  background-color: #60B367;
+  min-height: 70px;
+  border-top-style: solid;
+  border-color: #555555;
+  border-width: 4px;
+}
+.fullRow{
+  border-style: solid;
+  border-radius: 15px;
+}
+.dead{
+  background-color: #5A85A4;
+  min-height: 70px;
+  border-top-style: solid;
+  border-color: #555555;
+  border-width: 4px;
+}
+.logo{
+  width: 30px;
+  height: 30px;
+  margin:auto;
+  margin-top: 18px;
+  border-radius: 5px;
+}
+.streamer{
+  margin-top: 25px;
+  color: #404040;
+
+}
+.streamBox{
+  text-align: left;
+}
+.gameTitle{
+  margin-top: 1%;
+  color: #404040
+}
+.streamTitle{
+  color: #404040;
+}
+.deadTitle{
+  margin-top: 25px;
+}
